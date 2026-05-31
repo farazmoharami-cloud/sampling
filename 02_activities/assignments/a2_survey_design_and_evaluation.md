@@ -40,28 +40,52 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: 1
 
-Describe the purpose of your survey:
 ```
-write your answer here...
+Describe the purpose of your survey:
+The purpose of this survey is to identify the primary drivers of the high turnover rate recently observed among entry-level and lower-level positions at the company. By measuring the current satisfaction, engagement, and flight risk of employees, the survey aims to gather actionable feedback to understand what changes need to occur to improve employee retention and overall workplace satisfaction.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target Population: All current, active entry-level and lower-level employees across all departments at the tech company.
+
+Sampling Frame: The company's active Human Resources Information System (HRIS) directory, filtered to include only employees assigned to entry- and lower-level job codes.
+
+Sampling Units: Individual current employees.
+
+Observational Units: Employees who complete the survey.
+
+Overall Sampling Strategy: A stratified random sampling approach will be utilized. The sampling frame will be stratified by department, as the turnover is occurring across many departments. Proportionate random samples of individuals will be selected from each departmental stratum to ensure the data accurately reflects the diverse experiences across the company and prevents bias from heavily populated departments.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
+1. How would you rate your overall experience working at this company? 
+   - Options: Very Dissatisfied / Dissatisfied / Neutral / Satisfied / Very Satisfied
+
+2. I feel that my current role provides a clear and achievable path for career advancement within the company.
+   - Options: Strongly Disagree / Disagree / Neutral / Agree / Strongly Agree
+
+3. How would you rate the adequacy of the training and onboarding you received for your current position? 
+   - Options: Very Inadequate / Inadequate / Neutral / Adequate / Very Adequate
+
+4. I feel my compensation and benefits are competitive and fair given my role and responsibilities.
+   - Options: Strongly Disagree / Disagree / Neutral / Agree / Strongly Agree
+
+5. I feel a positive sense of belonging and inclusion within my team and the broader company culture.
+   - Options: Strongly Disagree / Disagree / Neutral / Agree / Strongly Agree
+
+6. How likely are you to look for a new job outside the company in the next 6 months?
+   - Options: Very Unlikely / Unlikely / Neutral / Likely / Very Likely
+
+7. If you were to leave the company in the near future, what would be the primary driver for that decision? 
+   - Options: Better Compensation or Benefits / Lack of Career Growth / Poor Management / Unfavorable Work-Life Balance / Negative Company Culture / Other
+
+8. If you selected "Other" in the previous question, please briefly specify. 
+   - Options: [Open-ended text box]
+
 9. write your question here... (optional)
 10. write your question here... (optional)
 ```
@@ -70,8 +94,19 @@ Your 5-10 question survey:
 
 Identify and describe survey features:
 
-```
-write your answer here
+```1. Sample type: Cross-sectional sample survey using a stratified design employing probability sampling.
+2. Sample size: A field sample of approximately 50,000 units was used, expecting 24,000 completions, resulting in an actual final count of 16,149 respondents.
+3. Target population: All non-institutionalized persons 15 years of age and older, living in the ten provinces of Canada.
+4. Sampling frame: A frame that combines landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame.
+5. Survey mode(s): Electronic Questionnaire (EQ) for self-completion online, and Computer-Assisted Telephone Interviews (CATI).
+6. Timeline: Data collection for this reference period took place from September 4, 2018, to December 28, 2018.
+7. Response rate: 41.9%.
+8. Weights: Survey weights were applied to adjust for non-response and calibrate the sample to known population totals. Bootstrap weights were created for variance estimation.
+9. Data processing: Included error detection programmed directly into the CATI system, flow edits to ensure proper respondent paths, and linkage to tax data (T1FF).
+10. Cleaning, imputation, etc.: Nearest-neighbor donor imputation methods using a score function were used to resolve missing data (such as missing income information). 
+11. Sources of error: Sampling errors (variance) and non-sampling errors (e.g., non-response bias, measurement error, recall bias).
+12. Limitations, known biases, etc.: Excludes residents of the Yukon, Northwest Territories, and Nunavut, as well as full-time residents of institutions. GSSGVP response rates have been trending downward, and the lack of personal contact with interviewers can make it easier for potential respondents to avoid the interview request.
+13. Link to documentation and any additional sources used: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
 ```
 
 ## Rubric
